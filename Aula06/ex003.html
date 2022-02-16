@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro app...</title>
+
+    <style>   /* Parte de estilos interna sempre dentro da tag head */
+        body {   
+            background-color: rgb(98, 98, 223);
+            color: white;
+            font: normal 20px Arial;
+        }
+
+        h1 {
+            color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    Ola mundo!!
+    <h1>Ola mundo!!</h1>
+    <p>Já me livrei da maldição!</p>
+
+
+
+
+<script> 
+
+var n1 = parseInt(window.prompt('Digite o primeiro numero.')) 
+/* com o comando parseInt convertemos o texto digitado em um numero inteiro, pderia ser tbm parseFloat para numeros reais 
+
+Number = pode ser inteiro ou real
+parseInt = somente numeros inteiros
+parseFloat = somente numeros reais*/
+
+
+var n2 = parseInt(window.prompt('Digite o segundo numero.'))
+var s = n1 + n2
+
+/* convertendo pra texto: variavel s
+
+s.toString()
+String(s) */
+
+window.alert(`A soma de ${n1} + ${n2} é ${s}`) 
+/* utilizando a `crase` é possivel aidionar as variaveis no texto apenas colocando-as entre ${x} */
+/* window.alert('O resultado da soma é ' + s) */
+    
+</script>
+
+</body>
+</html>
