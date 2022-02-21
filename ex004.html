@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro app...</title>
+
+    <style>   /* Parte de estilos interna sempre dentro da tag head */
+        body {   
+            background-color: rgb(98, 98, 223);
+            color: white;
+            font: normal 20px Arial;
+        }
+
+        h1, h2 {
+            color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<script> 
+
+var nome = window.prompt('Digite seu nome.')
+
+document.writeln(`<h2>Seu nome tem ${nome.length} letras.</h2>`<br>); /* Podemosmos colocar tag html junto */
+document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}`);
+document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`);
+
+    
+</script>
+
+</body>
+</html>
